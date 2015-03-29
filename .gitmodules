@@ -1,0 +1,3 @@
+[submodule "gal"]
+	path = gal
+	url = https://github.com/martinjunior/gal.git
