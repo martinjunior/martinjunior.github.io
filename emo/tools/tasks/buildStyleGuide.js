@@ -8,6 +8,9 @@ module.exports = function(grunt) {
         emo: {
             main: {
                 options: {
+                    path: {
+                        dest: 'styleguide/'
+                    },
                     scrape: [
                         'src/assets/scss/**/*.scss',
                         'src/assets/scripts/**/*.js',
@@ -20,7 +23,7 @@ module.exports = function(grunt) {
                         'modules',
                         'components'
                     ],
-                    title: 'Allstate Style Guide',
+                    title: 'Example Style Guide',
                     delimiters: ['{%', '%}']
                 },
                 files: [
