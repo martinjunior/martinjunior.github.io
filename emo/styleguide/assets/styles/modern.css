@@ -1,0 +1,282 @@
+/* ---------------------------------------------------------------------
+RESET CSS (thanks Eric Meyer)
+------------------------------------------------------------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+:focus {
+  outline: 0; }
+
+html {
+  overflow-y: scroll;
+  /* Always show a vertical scrollbar, even when there is no scrolling */ }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* ---------------------------------------------------------------------
+ HTML5 Element Reset
+------------------------------------------------------------------------ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+audio, canvas, video, progress, picture {
+  display: inline-block; }
+
+template {
+  display: none; }
+
+/* ---------------------------------------------------------------------
+ Form Reset Styles
+------------------------------------------------------------------------ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none; }
+
+input[type="search"] {
+  -webkit-appearance: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical; }
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: Arial;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: rebeccapurple;
+  text-decoration: none; }
+
+p:not(:last-child) {
+  margin-bottom: 15px; }
+
+.main {
+  padding: 75px 0; }
+
+.nav {
+  display: flex; }
+
+.nav-item {
+  flex: 1;
+  padding: 10px;
+  border-left: 1px solid #ff3814;
+  background: tomato;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none; }
+
+.nav-item:first-child {
+  border-left-color: tomato; }
+
+.nav_alt .nav-item {
+  border-left: 1px solid #4d2673;
+  background: rebeccapurple; }
+
+.nav_alt .nav-item:first-child {
+  border-left-color: rebeccapurple; }
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px 0 0 -5px; }
+
+.blocks > * {
+  padding: 5px 0 0 5px;
+  box-sizing: border-box; }
+
+.blocks_2up > * {
+  width: 50%; }
+
+.blocks_3up > * {
+  width: 33.33%; }
+
+.blocks_4up > * {
+  width: 25%; }
+
+.media {
+  display: flex; }
+
+.media-figure {
+  padding-right: 10px; }
+
+.media_reversed {
+  flex-direction: row-reverse; }
+
+.media_reversed .media-figure {
+  padding: 0;
+  padding-left: 10px; }
+
+.media_center {
+  align-content: center; }
+
+.vList > * + * {
+  margin-top: 5px; }
+
+.vList_x2 > * + * {
+  margin-top: 10px; }
+
+.vList_x3 > * + * {
+  margin-top: 15px; }
+
+.vList_x4 > * + * {
+  margin-top: 20px; }
+
+.vList_x5 > * + * {
+  margin-top: 25px; }
+
+.vr {
+  margin-bottom: 5px; }
+
+.vr_x2 {
+  margin-bottom: 10px; }
+
+.vr_x3 {
+  margin-bottom: 15px; }
+
+.vr_x4 {
+  margin-bottom: 20px; }
+
+.vr_x5 {
+  margin-bottom: 25px; }
+
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 20px; }
+
+.btn {
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  background: #333333;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none; }
+
+.btn_inverse {
+  border: 1px solid #333333;
+  background: #ffffff;
+  color: #333333; }
+
+.hdg {
+  font-weight: bold; }
+
+.hdg_1 {
+  font-size: 32px; }
+
+.hdg_2 {
+  font-size: 28px; }
+
+.hdg_3 {
+  font-size: 24px; }
+
+.hdg_4 {
+  font-size: 20px; }
+
+.input {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #333333;
+  font-size: 16px; }
+
+.uList {
+  margin-left: 20px; }
+
+.uList > * {
+  list-style: disc; }
+
+.uList > * + * {
+  margin-top: 5px; }
+
+.breadcrumbs {
+  display: flex; }
+
+.breadcrumbs > * + * {
+  margin-left: 10px; }
+
+.breadcrumbs > * + *:before {
+  content: ">";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; }
+
+.feature {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333333; }
+
+.feature-figure {
+  width: 100%;
+  display: block; }
+
+.feature-bd,
+.feature-ft {
+  padding: 20px 15px; }
+
+.feature-bd > * + * {
+  margin-top: 10px; }
+
+.feature-ft {
+  border-top: 1px solid #333333;
+  text-align: center; }

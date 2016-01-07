@@ -31,13 +31,13 @@ module.exports = function(grunt) {
                         expand: true,
                         cwd: '_styleguide/assets/',
                         src: ['**'],
-                        dest: 'docs/styleguide/assets/'
+                        dest: 'styleguide/assets/'
                     },
                     {
                         expand: true,
                         cwd: 'web/assets/',
                         src: ['**'],
-                        dest: 'docs/styleguide/assets/'
+                        dest: 'styleguide/assets/'
                     }
                 ]
             }
