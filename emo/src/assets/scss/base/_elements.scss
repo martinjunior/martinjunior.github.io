@@ -1,0 +1,22 @@
+//--------------------------------------------------------
+// Elements
+//--------------------------------------------------------
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+p:not(:last-child) {
+    margin-bottom: 15px;
+}

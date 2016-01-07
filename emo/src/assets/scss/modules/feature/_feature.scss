@@ -1,0 +1,37 @@
+//--------------------------------------------------------
+// Feature
+//--------------------------------------------------------
+//
+// {% Name: Feature %}
+// 
+// {% Category: modules %}
+// 
+// {% Description: feature_docs.md %}
+//
+//--------------------------------------------------------
+
+.feature {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333333;
+}
+
+.feature-figure {
+    width: 100%;
+    display: block;
+}
+
+.feature-bd,
+.feature-ft {
+    padding: 20px 15px;
+}
+
+.feature-bd > * + * {
+    margin-top: 10px;
+}
+
+.feature-ft {
+    border-top: 1px solid #333333;
+    text-align: center;
+}

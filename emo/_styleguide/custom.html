@@ -1,0 +1,11 @@
+{% extends 'layouts/custom.html' %}
+
+{% block content %}
+
+    <div class="main">
+        <div class="wrapper">
+            {% autoescape false %}{{ component.description }}{% endautoescape %}
+        </div>
+    </div>
+
+{% endblock %}

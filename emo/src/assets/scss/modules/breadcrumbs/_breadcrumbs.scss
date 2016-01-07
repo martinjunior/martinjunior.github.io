@@ -1,0 +1,26 @@
+//--------------------------------------------------------
+// Breadcrumbs
+//--------------------------------------------------------
+//
+// {% Name: Breadcrumbs %}
+// 
+// {% Category: modules %}
+// 
+// {% Description: breadcrumbs_docs.md %}
+//
+//--------------------------------------------------------
+
+.breadcrumbs {
+    display: flex;
+}
+
+.breadcrumbs > * + * {
+    margin-left: 10px;
+}
+
+.breadcrumbs > * + *:before {
+    content: ">";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}

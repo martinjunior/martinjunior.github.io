@@ -1,0 +1,34 @@
+//--------------------------------------------------------
+// Blocks
+//--------------------------------------------------------
+//
+// {% Name: Blocks %}
+// 
+// {% Category: layout %}
+// 
+// {% Description: blocks_docs.md %}
+//
+//--------------------------------------------------------
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px 0 0 -5px;
+}
+
+.blocks > * {
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+}
+
+.blocks_2up > * {
+    width: 50%;
+}
+
+.blocks_3up > * {
+    width: 33.33%;
+}
+
+.blocks_4up > * {
+    width: 25%;
+}
