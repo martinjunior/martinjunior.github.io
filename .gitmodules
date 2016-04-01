@@ -1,3 +1,6 @@
 [submodule "gal"]
 	path = gal
 	url = https://github.com/martinjunior/gal.git
+[submodule "emo-demo"]
+	path = emo-demo
+	url = https://github.com/martinjunior/emo-demo.git
