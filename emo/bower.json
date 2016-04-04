@@ -1,0 +1,24 @@
+{
+  "name": "emo-demo",
+  "description": "A grunt-emo demo",
+  "main": "index.js",
+  "authors": [
+    "Martin Duran"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "grunt-emo",
+    "style-guide",
+    "generator"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

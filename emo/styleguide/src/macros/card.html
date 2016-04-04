@@ -1,0 +1,11 @@
+{% macro card(header, body) %}
+<div class="card">
+    <h2 class="card-hd">{{ header }}</h2>
+    <div class="card-bd">
+        <p class="txt txt_sm">{{ body }}</p>
+    </div>
+    <div class="card-ft">
+        <button class="btn btn_block btn_tertiary">read more</button>
+    </div>
+</div>
+{% endmacro %}

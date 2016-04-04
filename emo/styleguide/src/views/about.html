@@ -1,0 +1,56 @@
+---
+name: About
+---
+
+{% import 'macros/card.html' as macros %}
+
+{% extends 'layouts/shell.html' %}
+
+{% block hero %}
+    <div class="hero">
+        <div class="wrapper">
+            <div class="media">
+                <img src="http://placehold.it/200x200" alt="" class="media-figure">
+                <div class="media-bd">
+                    <div class="vr vr_x3">
+                        <h1 class="hdg hdg_1">Lorem ipsum dolor sit amet, consectetur.</h1>
+                    </div>
+                    <p class="pa-txt pa-txt_loose">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolorum doloremque ut architecto error possimus, aliquid tempora, autem nulla. Aspernatur atque earum voluptatibus magni expedita quod deserunt molestiae, a voluptas ratione. Commodi minus, at nulla iure omnis ducimus est nobis magni veniam possimus nostrum velit, voluptate voluptatum consequuntur, itaque dicta!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <div class="wrapper">
+        <div class="grid grid_x5">
+            <div class="grid-col grid-col_4of12">
+                {{
+                    macros.card(
+                        'Lorem ipsum.',
+                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum magnam autem fugiat aperiam omnis! Itaque animi dicta veniam dolore neque alias rem distinctio, laborum commodi.'
+                    )
+                }}
+            </div>
+            <div class="grid-col grid-col_4of12">
+                {{
+                    macros.card(
+                        'Lorem ipsum.',
+                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic sapiente perferendis ipsam expedita, voluptas suscipit dolor nostrum. Eaque, sed.'
+                    )
+                }}
+            </div>
+            <div class="grid-col grid-col_4of12">
+                {{
+                    macros.card(
+                        'Lorem ipsum.',
+                        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quaerat officiis sunt temporibus dolore veniam cupiditate voluptas dolorum minima nemo tempore hic blanditiis illo delectus eligendi, commodi ratione ex inventore autem reprehenderit dolores optio doloremque. Distinctio incidunt id facilis laboriosam.'
+                    )
+                }}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
