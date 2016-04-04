@@ -1,1 +1,0 @@
-# A Demo Project for grunt-emo
